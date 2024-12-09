@@ -7,14 +7,14 @@
 # and the value of their name.
 fake_emails_dict = {}
 
-fake_folks_dict['fakeemail1@user.com'] = 'Ann'
-fake_folks_dict['fakeemail2@user.com'] = 'Ashley'
-fake_folks_dict['fakeemail3@user.com'] = 'Kim'
+fake_emails_dict['fakeemail1@user.com'] = 'Ann'
+fake_emails_dict['fakeemail2@user.com'] = 'Ashley'
+fake_emails_dict['fakeemail3@user.com'] = 'Kim'
 
-print(fake_folks_dict)
+print(fake_emails_dict)
 
 #When you're done, create the same dictionary as a pre-populated dictionary.
-prepopulated_fake_folks = {
+prepopulated_fake_emails = {
     'fakeemail1@user.com': 'Ann',
     'fakeemail2@user.com':'Ashley',
     'fakeemail3@user.com': 'Kim'
