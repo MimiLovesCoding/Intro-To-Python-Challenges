@@ -4,23 +4,23 @@
 # Basic Dictionary
 
 # Create an empty dictionary and then add a few of your friends. Make the key their email (can be fake)
-# and the value their name.
-fake_folks_dict = {}
+# and the value of their name.
+fake_emails_dict = {}
 
-fake_folks_dict['fakefriend1@user.com'] = 'Ann'
-fake_folks_dict['fakefriend2@user.com'] = 'Ashley'
-fake_folks_dict['fakefriend3@user.com'] = 'Kim'
+fake_folks_dict['fakeemail1@user.com'] = 'Ann'
+fake_folks_dict['fakeemail2@user.com'] = 'Ashley'
+fake_folks_dict['fakeemail3@user.com'] = 'Kim'
 
 print(fake_folks_dict)
 
 #When you're done, create the same dictionary as a pre-populated dictionary.
 prepopulated_fake_folks = {
-    'fakefriend1@user.com': 'Ann',
-    'fakefriend2@user.com':'Ashley',
-    'fakefriend3@user.com': 'Kim'
+    'fakeemail1@user.com': 'Ann',
+    'fakeemail2@user.com':'Ashley',
+    'fakeemail3@user.com': 'Kim'
 }
 
-print(prepopulated_fake_folks)
+print(prepopulated_fake_emails)
 
 # ----------------------------------------------------------------------------------------------------------------------
 
@@ -59,7 +59,7 @@ for emp_id, emp_info in company_employees.items():
     print(f"Name: {emp_info['name']}")
     print()
 
-# - Print the employee data for employee with the ID 3.
+# - Print the employee data for an employee with the ID 3.
 employee_id = 3
 if employee_id in company_employees:
     employee_data = company_employees[employee_id]
